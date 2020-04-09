@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import count from './count'
+import events from './events'
 
 //count以外にあるときは列挙する
-export default combineReducers({count})
+export default combineReducers({events})
